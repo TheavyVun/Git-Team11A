@@ -64,3 +64,15 @@ button {
     align-items: center;
     justify-content: center;
 }
+/* footer */
+.footer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(134, 127, 127);
+    text-align: center;
+    line-height: 1,5rem;
+    height: 25vh;
+    color: #fff;
+}
