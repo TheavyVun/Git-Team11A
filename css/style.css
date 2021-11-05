@@ -124,3 +124,59 @@ section {
     height: 25vh;
     color: #fff;
 }
+
+@media(max-width: 860px) {
+    .banner {
+        width: 94%;
+        flex-wrap: wrap;
+    }
+    .ban-left {
+        width: 100%;
+    }
+    .img {
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    img {
+        width: 70%;
+    }
+    section {
+        width: 94%;
+    }
+    .card-container {
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 48%;
+        margin-top: 20px;
+    }
+}
+@media(max-width: 560px) {
+    .banner {
+        width: 96%;
+        flex-wrap: wrap;
+    }
+    .ban-left {
+        width: 100%;
+    }
+    .img {
+        width: 100%;
+        margin-top: 10px;
+    }
+    img {
+        width: 100%;
+    }
+    section {
+        width: 96%;
+    }
+    .card-container {
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
