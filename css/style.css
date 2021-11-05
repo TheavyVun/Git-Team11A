@@ -7,7 +7,7 @@ body{
 }
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0;
     text-align: center;
     box-shadow: 0 0.5rem 1/rem rgba(0,0 ,0 ,0.1 );
@@ -19,6 +19,11 @@ nav{
 }
 .active {
     background: rgb(241, 68, 241);
+    border-radius: 5px;
+    color: white;
+}
+.active i{
+    color: rgb(245, 231, 231);
 }
 li{
     padding: 10px;
