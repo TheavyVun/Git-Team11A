@@ -17,7 +17,7 @@ nav{
     display: flex;
     list-style: none;
 }
-.active {
+.active, button {
     background: rgb(241, 68, 241);
     border-radius: 5px;
     color: white;
@@ -32,4 +32,35 @@ li{
     text-decoration: none;
     margin: 15px;
     color: #000;
+}
+
+.banner {
+    padding: 30px 0;
+    display: flex;
+    width: 90%;
+    margin: auto;
+
+}
+.ban-left h2 {
+    margin: 0;
+    
+}
+.ban-left {
+    width: 70%;
+    padding: 0 40px;
+}
+.img {
+    width: 30%;
+}
+img {
+    width: 100%;
+}
+button {
+    padding: 10px 50px;
+    border: none;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
