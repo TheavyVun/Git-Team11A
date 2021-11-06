@@ -201,4 +201,7 @@ section {
     li {
         padding: 4px;
     }
+    .bar-ringt li a {
+        font-size: 10px;
+    }
 }
