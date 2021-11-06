@@ -197,11 +197,4 @@ section {
         padding: 8px;
     }
 }
-@media(max-width: 460px) {
-    li {
-        padding: 4px;
-    }
-    .bar-ringt li a {
-        font-size: 5px;
-    }
-}
+
