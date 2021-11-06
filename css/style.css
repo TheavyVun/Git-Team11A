@@ -196,28 +196,9 @@ section {
     li {
         padding: 8px;
     }
-    .banner {
-        width: 96%;
-        flex-wrap: wrap;
-    }
-    .ban-left {
-        width: 100%;
-    }
-    .img {
-        width: 100%;
-        margin-top: 10px;
-    }
-    img {
-        width: 100%;
-    }
-    section {
-        width: 96%;
-    }
-    .card-container {
-        flex-wrap: wrap;
-    }
-    .card {
-        width: 100%;
-        margin-top: 10px;
+}
+@media(max-width: 560px) {
+    li {
+        padding: 6px;
     }
 }
