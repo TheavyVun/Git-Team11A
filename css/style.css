@@ -199,6 +199,6 @@ section {
 }
 @media(max-width: 460px) {
     li {
-        padding: 6px;
+        padding: 4px;
     }
 }
