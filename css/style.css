@@ -125,7 +125,10 @@ section {
     color: #fff;
 }
 
-@media(max-width: 860px) {
+@media(max-width: 880px) {
+    li {
+        padding: 10px;
+    }
     .banner {
         width: 94%;
         flex-wrap: wrap;
@@ -154,7 +157,45 @@ section {
         margin-top: 20px;
     }
 }
+@media(max-width: 750px) {
+    .menu {
+        flex-wrap: wrap;
+    }
+    .navbar {
+        width: 100%;
+    }
+    li {
+        padding: 8px 15px;
+    }
+    .banner {
+        width: 96%;
+        flex-wrap: wrap;
+    }
+    .ban-left {
+        width: 100%;
+    }
+    .img {
+        width: 100%;
+        margin-top: 10px;
+    }
+    img {
+        width: 100%;
+    }
+    section {
+        width: 96%;
+    }
+    .card-container {
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
 @media(max-width: 560px) {
+    li {
+        padding: 8px;
+    }
     .banner {
         width: 96%;
         flex-wrap: wrap;
